@@ -1,1 +1,23 @@
 
+#!/bin/bash
+
+echo " creating 10 dir"
+
+for i in {1..10};
+do
+     mkdir $1$i
+done
+
+
+src="/var/log/nginx/*"
+date=$(date +"%d-%b-%Y")
+
+tar czvf nginx_$date.tar.gz  $src
+
+
+
+read -p "username:" user
+
+sudo useradd -m $user
+
+echo "$user"
