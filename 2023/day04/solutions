@@ -1,1 +1,14 @@
+#!/bin/bash
+
+echo "I will complete #90DaysOfDevOps challenge"
+
+read -p "number1: " one
+read -p "number2: " two
+arsenal="ozil"
+
+if [ $one -eq $two ]; then
+    echo "equal"
+else
+    echo "not equal ${arsenal}"
+fi
 
