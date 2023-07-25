@@ -1,1 +1,10 @@
-
+ git add .
+ 2130  git commit -m 'dvsdb'
+ 2131  git pull origin feature
+ 2132  git push origin feature
+ 2133  git logs
+ 2134  git log
+ 2135  touch dvnavnsjdnbjsnbsjnbsfjn
+ 2136  git add .
+ 2137  git commit -m 'dvsdb'
+ 2138  git push origin feature
